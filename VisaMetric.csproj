@@ -132,6 +132,13 @@
     <Content Include="main-window.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="meeting1.jpg" />
+    <Content Include="meeting2.jpg" />
+    <Content Include="nationality.jpg" />
+    <Content Include="personal-info.jpg" />
+    <Content Include="setting2.jpg" />
+    <Content Include="setting3.jpg" />
+    <Content Include="start.jpg" />
     <None Include="README.md">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
