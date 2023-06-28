@@ -10,3 +10,5 @@
     $("input[name = nationality][value = Iran]").prop('checked', true);
     $("input[name = nationality][value = Iran]").trigger('change');
     $("input[name = nationality][value = Iran]").trigger('click');
+
+    $("#btnSubmit").click();
