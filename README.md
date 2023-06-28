@@ -1,8 +1,9 @@
 # visametric-semi-automation
 
 ## نحوه استفاده
-1- نرم افزار را از آدرس زیر دانلود نمایید
+1- فایل publish.rar را از آدرس زیر دانلود نمایید
 
+https://github.com/myanonusername/visametric-semi-automation/releases/
 
 2- با استفاده از دکمه های تنظیمات، اطلاعات ورودی را تکمیل نمایید
 
