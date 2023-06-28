@@ -1,0 +1,20 @@
+$("#city").val(1);
+$("#city").trigger("change");
+
+$("#office").val(1);
+$("#office").trigger("change");
+
+$("#officetype").val(1);
+$("#officetype").trigger("change");
+
+$("#totalPerson").val(1);
+$("#totalPerson").trigger("change");
+
+$("input[name = paytype][value = transfer]").attr('checked','checked');
+$("input[name = paytype][value = transfer]").removeAttr('checked');
+$("input[name = paytype][value = atm]").attr('checked','checked');
+$("input[name = paytype][value = atm]").prop('checked', true);
+$("input[name = paytype][value = atm]").trigger('change');
+
+$("#paymentCardInput").val('6666666666666666');
+$("#popupDatepicker2").val('1402/03/20');

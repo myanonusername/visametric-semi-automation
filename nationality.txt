@@ -1,0 +1,12 @@
+    $("input[name = surveyStart][value = Iran]").removeAttr('checked');
+    $("input[name = surveyStart][value = Iran]").attr('checked','checked');
+    $("input[name = surveyStart][value = Iran]").prop('checked', true);
+    $("input[name = surveyStart][value = Iran]").trigger('change');
+    $("input[name = surveyStart][value = Iran]").trigger('click');
+
+
+    $("input[name = nationality][value = Iran]").removeAttr('checked');
+    $("input[name = nationality][value = Iran]").attr('checked','checked');
+    $("input[name = nationality][value = Iran]").prop('checked', true);
+    $("input[name = nationality][value = Iran]").trigger('change');
+    $("input[name = nationality][value = Iran]").trigger('click');

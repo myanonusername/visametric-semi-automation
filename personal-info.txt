@@ -1,0 +1,10 @@
+$("input[name = sheba_number]").val('IR88888888888');
+$("#scheba_name").val('نام و نام خانوادگی');
+$("#name1").val('FirstName');
+$("#surname1").val('LastName');
+$("#birthyear1").val('1990');
+$("#birthmonth1").val('01');
+$("#birthday1").val('01');
+$("#passport1").val('I4444444');
+$("#phone1").val('+989123456789');
+$("#email1").val('email@gmail.com');
