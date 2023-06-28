@@ -38,6 +38,9 @@
             this.textBoxUrl = new System.Windows.Forms.TextBox();
             this.startBtn = new System.Windows.Forms.Button();
             this.timer = new System.Windows.Forms.Timer(this.components);
+            this.btnEditNationality = new System.Windows.Forms.Button();
+            this.btnEditMeeting = new System.Windows.Forms.Button();
+            this.btnEditPersonalInfo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -50,7 +53,7 @@
             this.browser.Dock = System.Windows.Forms.DockStyle.Fill;
             this.browser.Location = new System.Drawing.Point(0, 0);
             this.browser.Name = "browser";
-            this.browser.Size = new System.Drawing.Size(736, 488);
+            this.browser.Size = new System.Drawing.Size(669, 488);
             this.browser.TabIndex = 0;
             // 
             // splitContainer1
@@ -66,13 +69,16 @@
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.Controls.Add(this.btnEditPersonalInfo);
+            this.splitContainer1.Panel2.Controls.Add(this.btnEditMeeting);
+            this.splitContainer1.Panel2.Controls.Add(this.btnEditNationality);
             this.splitContainer1.Panel2.Controls.Add(this.btnPersonalInfo);
             this.splitContainer1.Panel2.Controls.Add(this.btnNationality);
             this.splitContainer1.Panel2.Controls.Add(this.btnMeetingDetails);
             this.splitContainer1.Panel2.Controls.Add(this.textBoxUrl);
             this.splitContainer1.Panel2.Controls.Add(this.startBtn);
             this.splitContainer1.Size = new System.Drawing.Size(941, 488);
-            this.splitContainer1.SplitterDistance = 736;
+            this.splitContainer1.SplitterDistance = 669;
             this.splitContainer1.TabIndex = 1;
             // 
             // btnPersonalInfo
@@ -81,7 +87,7 @@
             this.btnPersonalInfo.Name = "btnPersonalInfo";
             this.btnPersonalInfo.Size = new System.Drawing.Size(126, 38);
             this.btnPersonalInfo.TabIndex = 2;
-            this.btnPersonalInfo.Text = "Personal Info";
+            this.btnPersonalInfo.Text = "اطلاعات شخصی";
             this.btnPersonalInfo.UseVisualStyleBackColor = true;
             this.btnPersonalInfo.Click += new System.EventHandler(this.btnPersonalInfo_Click);
             // 
@@ -91,7 +97,7 @@
             this.btnNationality.Name = "btnNationality";
             this.btnNationality.Size = new System.Drawing.Size(126, 38);
             this.btnNationality.TabIndex = 2;
-            this.btnNationality.Text = "Nationality";
+            this.btnNationality.Text = "ملیت";
             this.btnNationality.UseVisualStyleBackColor = true;
             this.btnNationality.Click += new System.EventHandler(this.btnNationality_Click);
             // 
@@ -101,7 +107,7 @@
             this.btnMeetingDetails.Name = "btnMeetingDetails";
             this.btnMeetingDetails.Size = new System.Drawing.Size(126, 38);
             this.btnMeetingDetails.TabIndex = 2;
-            this.btnMeetingDetails.Text = "Metting Details";
+            this.btnMeetingDetails.Text = "جزییات ملاقات";
             this.btnMeetingDetails.UseVisualStyleBackColor = true;
             this.btnMeetingDetails.Click += new System.EventHandler(this.btnMeetingDetails_Click);
             // 
@@ -121,7 +127,7 @@
             this.startBtn.Name = "startBtn";
             this.startBtn.Size = new System.Drawing.Size(126, 38);
             this.startBtn.TabIndex = 0;
-            this.startBtn.Text = "&Start";
+            this.startBtn.Text = "شروع";
             this.startBtn.UseVisualStyleBackColor = true;
             this.startBtn.Click += new System.EventHandler(this.startBtn_Click);
             // 
@@ -129,6 +135,36 @@
             // 
             this.timer.Enabled = true;
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
+            // btnEditNationality
+            // 
+            this.btnEditNationality.Location = new System.Drawing.Point(186, 139);
+            this.btnEditNationality.Name = "btnEditNationality";
+            this.btnEditNationality.Size = new System.Drawing.Size(38, 38);
+            this.btnEditNationality.TabIndex = 3;
+            this.btnEditNationality.Text = "⚙";
+            this.btnEditNationality.UseVisualStyleBackColor = true;
+            this.btnEditNationality.Click += new System.EventHandler(this.btnEditNationality_Click);
+            // 
+            // btnEditMeeting
+            // 
+            this.btnEditMeeting.Location = new System.Drawing.Point(186, 194);
+            this.btnEditMeeting.Name = "btnEditMeeting";
+            this.btnEditMeeting.Size = new System.Drawing.Size(38, 38);
+            this.btnEditMeeting.TabIndex = 3;
+            this.btnEditMeeting.Text = "⚙";
+            this.btnEditMeeting.UseVisualStyleBackColor = true;
+            this.btnEditMeeting.Click += new System.EventHandler(this.btnEditMeeting_Click);
+            // 
+            // btnEditPersonalInfo
+            // 
+            this.btnEditPersonalInfo.Location = new System.Drawing.Point(186, 252);
+            this.btnEditPersonalInfo.Name = "btnEditPersonalInfo";
+            this.btnEditPersonalInfo.Size = new System.Drawing.Size(38, 38);
+            this.btnEditPersonalInfo.TabIndex = 3;
+            this.btnEditPersonalInfo.Text = "⚙";
+            this.btnEditPersonalInfo.UseVisualStyleBackColor = true;
+            this.btnEditPersonalInfo.Click += new System.EventHandler(this.btnEditPersonalInfo_Click);
             // 
             // BrowserForm
             // 
@@ -159,6 +195,9 @@
         private System.Windows.Forms.Button btnMeetingDetails;
         private System.Windows.Forms.Button btnPersonalInfo;
         private System.Windows.Forms.Button btnNationality;
+        private System.Windows.Forms.Button btnEditPersonalInfo;
+        private System.Windows.Forms.Button btnEditMeeting;
+        private System.Windows.Forms.Button btnEditNationality;
     }
 }
 
